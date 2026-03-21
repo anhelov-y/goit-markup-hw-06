@@ -126,7 +126,7 @@ img {
 
 @media (min-resolution: 192dpi) {
     .hero {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office.jpg);
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office@2x.jpg);
     }
 }
 
@@ -570,6 +570,12 @@ img {
     }
 }
 
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office@2x.jpg);
+    }
+}
+
 /* DESKTOP (1158px+) */
 @media screen and (min-width: 1158px) {
     .container {
@@ -641,6 +647,12 @@ img {
     .footer-social-box {
         margin-right: 80px;
         margin-bottom: 0;
+    }
+}
+
+@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+    .hero {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people_office@2x.jpg);
     }
 }
 
