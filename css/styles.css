@@ -482,6 +482,7 @@ img {
         line-height: 1.17;
         letter-spacing: 0.04em;
         transition: color var(--transition);
+        font-style: normal;
     }
 
     .contact-link:hover {
@@ -599,6 +600,7 @@ img {
 
     .contact-link {
         font-size: 16px;
+        font-style: normal;
     }
 
     .hero {
