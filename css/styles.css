@@ -690,7 +690,6 @@ img {
     flex-direction: column;
     gap: 40px;
     margin-bottom: auto;
-    /* ЦЕ ОПУСТИТЬ КОНТАКТИ ВНИЗ */
 }
 
 .menu-close-btn {
@@ -730,6 +729,7 @@ img {
     font-size: 20px;
     font-weight: 500;
     color: var(--slate);
+    font-style: normal;
 }
 
 .mobile-contact-link.accent {
